@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Root Flower Kuching">
+    <meta name="keywords" content="Root Flower Kuching, Flowers, Bouquets, Workshop">
+    <meta name="author" content="YanHanWONG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation</title>
+    <link rel="icon" type="image/png" href="Images/FlowerLogo.jpg">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <article>
+        <!-- Header -->
+        <header class="index-header">
+            <nav aria-label="Main navigation" class="index-nav">
+                <ul id="navList" class="index-nav-list">
+                </ul>
+            </nav>
+        </header>
+        <!-- Main Content -->
+        <main class="confirmation-main">
+            <form id="finalSubmitForm" method="post" action="mailto:104392138@students.swinburne.edu.my" enctype="text/plain">
+                <fieldset>
+                    <legend>Thank You!</legend>
+                    <h2><span id="formType"></span> Details</h2>
+
+                    <p><strong>First Name:</strong> <span id="confirm_fname"></span></p>
+                    <p><strong>Last Name:</strong> <span id="confirm_lname"></span></p>
+                    <p><strong>Email:</strong> <span id="confirm_email"></span></p>
+                    <p><strong>Phone:</strong> <span id="confirm_phone"></span></p>
+                    <p><strong>Address:</strong> <span id="confirm_street"></span>,
+                        <span id="confirm_city"></span>,
+                        <span id="confirm_state"></span>,
+                        <span id="confirm_postcode"></span></p>
+
+                    <div id="enquiry_confirm_details" style="display: none;">
+                        <p><strong>Subject:</strong> <span id="confirm_subject"></span></p>
+                        <p><strong>Product:</strong> <span id="confirm_product"></span></p>
+                        <p><strong>Promotion:</strong> <span id="confirm_promotion"></span></p>
+                        <p><strong>Preferred Contact:</strong> <span id="confirm_contact"></span></p>
+                        <p><strong>Comments:</strong> <span id="confirm_comments_enq"></span></p>
+                    </div>
+
+                    <div id="register_confirm_details" style="display: none;">
+                        <p><strong>Workshop:</strong> <span id="confirm_workshop"></span></p>
+                        <p><strong>Session:</strong> <span id="confirm_session"></span></p>
+                        <p><strong>Participants:</strong> <span id="confirm_participants"></span></p>
+                        <p><strong>Start Date:</strong> <span id="confirm_start_date"></span></p>
+                        <p><strong>End Date:</strong> <span id="confirm_end_date"></span></p>
+                        <p><strong>Comments:</strong> <span id="confirm_comments_reg"></span></p>
+                    </div>
+
+                    <input type="hidden" name="Form_Type" id="hidden_formType">
+                    <input type="hidden" name="First_Name" id="hidden_fname">
+                    <input type="hidden" name="Last_Name" id="hidden_lname">
+                    <input type="hidden" name="Email" id="hidden_email">
+                    <input type="hidden" name="Phone" id="hidden_phone">
+                    <input type="hidden" name="Street" id="hidden_street">
+                    <input type="hidden" name="City" id="hidden_city">
+                    <input type="hidden" name="State" id="hidden_state">
+                    <input type="hidden" name="Postcode" id="hidden_postcode">
+
+                    <input type="hidden" name="Subject" id="hidden_subject">
+                    <input type="hidden" name="Product" id="hidden_product">
+                    <input type="hidden" name="Promotion" id="hidden_promotion">
+                    <input type="hidden" name="Contact_Method" id="hidden_contact">
+                    <input type="hidden" name="Comments" id="hidden_comments_enq">
+
+                    <input type="hidden" name="Workshop" id="hidden_workshop">
+                    <input type="hidden" name="Session" id="hidden_session">
+                    <input type="hidden" name="Participants" id="hidden_participants">
+                    <input type="hidden" name="Start_Date" id="hidden_start_date">
+                    <input type="hidden" name="End_Date" id="hidden_end_date">
+                    <input type="hidden" name="Comments" id="hidden_comments_reg">
+
+                    <div class="button-container">
+                        <button type="submit" id="confirmButton">Confirm</button>
+                        <button type="button" id="cancelButton">Cancel</button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <!-- Footer -->
+        <footer class="index-footer ">
+            <p>
+                <a href="mailto:104392138@students.swinburne.edu.my ">Created by: YanHan WONG</a> |
+                <a href="index.html#index-contact ">Contact Us</a>|
+                <a href="acknowledgement.html ">Acknowledgement</a> |
+                <a href="enhancement1.html ">Enhancement 1</a>|
+                <a href="enhancement2.html ">Enhancement 2</a>
+            </p>
+        </footer>
+    </article>
+</body>
+
+</html>
